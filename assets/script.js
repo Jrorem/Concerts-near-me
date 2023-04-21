@@ -8,7 +8,7 @@ var time = document.getElementById("timeDate")
 var SGUrl = "https://api.seatgeek.com/2/events?q=&client_id=MzMwMzM2MzJ8MTY4MTM1MTUyMi41MjQwMzgz&client_secret=505cbc8cb48518aae371b19ec2913f6a4da13d3b010e86d7561ed8bf208ec81c"
 // click button after entering artist in search bar  
  button.addEventListener("click", function displayConcert() {
- //event.preventDefault()
+event.preventDefault()
  fetch("https://api.seatgeek.com/2/events?q=" + artistValue.value + "&client_id=MzMwMzM2MzJ8MTY4MTM1MTUyMi41MjQwMzgz&client_secret=505cbc8cb48518aae371b19ec2913f6a4da13d3b010e86d7561ed8bf208ec81c")  
 .then(function (response){
   return response.json()
