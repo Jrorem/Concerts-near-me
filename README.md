@@ -1,4 +1,4 @@
-# Cncerts Nar Me
+# Concerts Near Me
 
 Concerts Near Me is a dynamic web-server to find concerts venues for artists near by that you enjoy. 
 It will show you time, location, and date of the concert. 
