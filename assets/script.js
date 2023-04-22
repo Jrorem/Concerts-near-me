@@ -23,7 +23,6 @@ for(var i = 0; i < 5; i++){
     console.log(cityState)
     var venueName = data["events"][i]["venue"]["name"]
     var timeDate = data["events"][i]["datetime_local"]
-    console.log(concertName + "String here")
     title.innerHTML = "Concert name: " + concertName 
     venue.innerHTML = "Location: " + cityState
     name.innerHTML = "Venue name: " + venueName
