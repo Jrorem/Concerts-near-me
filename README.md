@@ -21,6 +21,7 @@ It will show you time, location, and date of the concert.
 * Must be interactive (i.e: accept and respond to user input)
 
 ## Screenshot
+![final work](./assets/img/Screenshot.jpg.png)
 
 ## Installation:
 * GitHub: https://github.com/Jrorem/concerts-near-me
@@ -31,5 +32,5 @@ It will show you time, location, and date of the concert.
 * Joe Rorem
 * August Moehring
 * Mohamed Hashim 
+* Oleg Sayenko
 
-## Credits:

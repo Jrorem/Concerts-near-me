@@ -14,7 +14,7 @@ var SGUrl = "https://api.seatgeek.com/2/events?q=&client_id=MzMwMzM2MzJ8MTY4MTM1
 // press enter after entering artist in search bar  
 button.addEventListener("click", function displayConcert() {
 event.preventDefault()
-clearCearch()
+clearSearch()
 getSentence()
 // sentence()
  fetch("https://api.seatgeek.com/2/events?q=" + artistValue.value + "&geoip=true&taxonomies.name=concert&range=250mi&client_id=MzMwMzM2MzJ8MTY4MTM1MTUyMi41MjQwMzgz&client_secret=505cbc8cb48518aae371b19ec2913f6a4da13d3b010e86d7561ed8bf208ec81c")  
@@ -51,7 +51,7 @@ getSentence()
   // use the search near me button
 nearButton.addEventListener("click", function displayConcert(){
   event.preventDefault()
-  clearCearch()
+  clearSearch()
   getSentence()
   fetch("https://api.seatgeek.com/2/events?q=&geoip=true&taxonomies.name=concert&sort=datetime_utc.asc&client_id=MzMwMzM2MzJ8MTY4MTM1MTUyMi41MjQwMzgz&client_secret=505cbc8cb48518aae371b19ec2913f6a4da13d3b010e86d7561ed8bf208ec81c")
   .then(function(response){
@@ -77,7 +77,7 @@ nearButton.addEventListener("click", function displayConcert(){
 })
 
 //clear search area between searches
-function clearCearch(){
+function clearSearch(){
   for (var i = 0; i < 5; i++){
     $("#concertName" + i).html("")
     $("#cityState" + i).html("")
