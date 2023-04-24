@@ -25,7 +25,7 @@ It will show you time, location, and date of the concert.
 
 ## Installation:
 * GitHub: https://github.com/Jrorem/concerts-near-me
-* Link to web application:
+* Link to web application: https://jrorem.github.io/concerts-near-me/
 
 
 ## The Creators:
